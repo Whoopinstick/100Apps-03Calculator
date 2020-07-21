@@ -56,12 +56,10 @@
 		0A5EFA3E24C78B5D00DE0C3C /* 03 - Calc */ = {
 			isa = PBXGroup;
 			children = (
-				0A5EFA3F24C78B5D00DE0C3C /* AppDelegate.swift */,
-				0A5EFA4124C78B5D00DE0C3C /* SceneDelegate.swift */,
-				0A5EFA4324C78B5D00DE0C3C /* ContentView.swift */,
 				0A5EFA4524C78B5E00DE0C3C /* Assets.xcassets */,
-				0A5EFA4A24C78B5E00DE0C3C /* LaunchScreen.storyboard */,
 				0A5EFA4D24C78B5E00DE0C3C /* Info.plist */,
+				0A5EFA5324C78BB300DE0C3C /* Delegate */,
+				0A5EFA5424C78BBA00DE0C3C /* View */,
 				0A5EFA4724C78B5E00DE0C3C /* Preview Content */,
 			);
 			path = "03 - Calc";
@@ -73,6 +71,24 @@
 				0A5EFA4824C78B5E00DE0C3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A5EFA5324C78BB300DE0C3C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EFA3F24C78B5D00DE0C3C /* AppDelegate.swift */,
+				0A5EFA4124C78B5D00DE0C3C /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0A5EFA5424C78BBA00DE0C3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A5EFA4A24C78B5E00DE0C3C /* LaunchScreen.storyboard */,
+				0A5EFA4324C78B5D00DE0C3C /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
