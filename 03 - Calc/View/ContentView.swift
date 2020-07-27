@@ -177,7 +177,13 @@ struct ContentView: View {
                         .cornerRadius(35.0)
                         
                         Button(".") {
-                            
+                            if self.inTypingMode {
+                                if self.numberText.contains(".") {
+                                    //
+                                } else {
+                                    self.numberText.append(".")
+                                }
+                            }
                         }
                         .frame(width: geo.size.width * 0.2, height: geo.size.height * 0.1)
                         .calcButton(fgColor: .white, bgColor: Colors.darkGray)
